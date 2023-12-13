@@ -19,17 +19,17 @@ def update_img():
 
 def generate(number):
     generator = tf.keras.models.load_model("./models/")
-    n_images = number*number
+    n_img = number*number
     seed = random.getrandbits(32)
     code_size = 100
 
-    noise = tf.random.normal(shape=[n_images, code_size], seed=seed)
-    generated_images = generator(noise, training=False)
+    noise = tf.random.normal(shape=[n_img, code_size], seed=seed)
+    generated_img = generator(noise, training=False)
 
     fig = plt.figure(figsize=(8, 8))
-    for i in range(generated_images.shape[0]):
+    for i in range(generated_img.shape[0]):
         plt.subplot(number, number, i+1)
-        plt.imshow(generated_images[i, :, :, :])
+        plt.imshow(generated_img[i, :, :, :])
         plt.axis('off')
     plt.savefig("output.png")
 
