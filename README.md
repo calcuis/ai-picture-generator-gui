@@ -22,7 +22,7 @@ Image Generation Function:
 - It loads a pre-trained `TensorFlow` model from the "./models/" directory.
 - Generates random noise based on the specified number and a seed.
 - Uses the generator model to generate a batch of images.
-- Plots the generated images in a grid using Matplotlib and saves the composite image as "output.png."
+- Plots the generated images in a grid using `Matplotlib` and saves the composite image as "output.png."
 - Calls `update_img` to update the displayed image in the `Tkinter` window.
 
 Four buttons are created for different generation options:
