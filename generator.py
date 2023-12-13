@@ -21,9 +21,9 @@ def generate(number):
     generator = tf.keras.models.load_model("./models/")
     n_images = number*number
     seed = random.getrandbits(32)
-    codings_size = 100
+    code_size = 100
 
-    noise = tf.random.normal(shape=[n_images, codings_size], seed=seed)
+    noise = tf.random.normal(shape=[n_images, code_size], seed=seed)
     generated_images = generator(noise, training=False)
 
     fig = plt.figure(figsize=(8, 8))
