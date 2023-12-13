@@ -33,3 +33,5 @@ Four buttons are created for different generation options:
 - Buttons are arranged in a grid layout within the `Tkinter` window.
 
 Overall, this code provides a simple interface for generating CryptoPunk images with different options for the number of images to generate. The generated images are displayed in the Tkinter window using Matplotlib.
+
+[<img src="https://raw.githubusercontent.com/calcuis/ai-picture-generator-gui/master/output.png" width="800" height="800">](https://github.com/calcuis/ai-picture-generator-gui/blob/main/output.png)
