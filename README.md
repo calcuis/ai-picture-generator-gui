@@ -1,6 +1,6 @@
 ## cryptopunk generator GUI version
 
-The provided Python code is a simple graphical user interface (GUI) application using the Tkinter library for generating and displaying CryptoPunk images. CryptoPunks are unique 24x24 pixel art characters (selected as an example). The application uses a pre-trained TensorFlow model to generate these images based on random input noise.
+The provided Python code is a simple graphical user interface (GUI) application using the Tkinter library for generating and displaying CryptoPunk images. CryptoPunks are unique 24x24 pixel art characters (selected as an example of this demonstration). The application uses a pre-trained TensorFlow model to generate these images based on random input noise.
 Here's a breakdown of the code:
 
 Import Libraries:
