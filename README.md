@@ -49,4 +49,6 @@ github.com/dimitreOliveira/cryptogans
 
 github.com/teddykoker/cryptopunks-gan
 
+github.com/calcuis/ai-picture-generator
+
 tensorflow.org/tutorials/generative/dcgan
