@@ -28,10 +28,9 @@ Four buttons are created for different generation options:
 - "Generate 1 cryptopunk" button calls `generate(1)`
 - "Generate 3x3 cryptopunks" button calls `generate(3)`
 - "Generate 5x5 cryptopunks" button calls `generate(5)`
-- "Terminate" button quits the `Tkinter` application.
-- Buttons are arranged in a grid layout within the `Tkinter` window.
+- "Terminate" button quits the `Tkinter` application (click this for a graceful termination of the generator).
 
-Overall, this code provides a simple interface for generating CryptoPunk images with different options for the number of images to generate. The generated images are displayed in the Tkinter window using Matplotlib.
+Overall, this code provides a simple interface for generating CryptoPunk images with different options for the number of images to generate. The generated images are displayed in the `Tkinter` window using `Matplotlib`.
 
 [<img src="https://raw.githubusercontent.com/calcuis/ai-picture-generator-gui/master/output.png" width="400" height="400">](https://github.com/calcuis/ai-picture-generator-gui/blob/main/output.png)
 
