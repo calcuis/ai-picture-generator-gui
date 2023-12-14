@@ -39,7 +39,6 @@ Run it with
 python generator.py
 ```
 
-
 **References**
 
 huggingface.co/huggan/crypto-gan
