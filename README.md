@@ -24,7 +24,7 @@ Image Generation Function:
 - Plots the generated images in a grid using `Matplotlib` and saves the composite image as "output.png."
 - Calls `update_img` to update the displayed image in the `Tkinter` window.
 
-Four buttons are created for different generation options:
+Three buttons are created for different generation options (plus terminator):
 - "Generate 1 cryptopunk" button calls `generate(1)`
 - "Generate 3x3 cryptopunks" button calls `generate(3)`
 - "Generate 5x5 cryptopunks" button calls `generate(5)`
